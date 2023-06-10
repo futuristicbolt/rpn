@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='flex justify-center'>
       <div className='App w-full max-w-[500px]'>
-      <BrowserRouter basename="/rpn">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<ProfileTemplate />}/>
           <Route 
