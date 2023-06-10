@@ -1,0 +1,8 @@
+.square {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  .pin-icon {
+    filter: invert(1) brightness(2000);
+  }

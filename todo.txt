@@ -1,0 +1,5 @@
+- Configure swiper.js to use lazy loading
+- Add support for video
+- link ig handles to profiles / add tags to pictures
+- add models to json
+- add sort by model feature
