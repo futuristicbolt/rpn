@@ -1,18 +1,17 @@
 import React from "react";
 import './App.css';
-import { BrowserRouter, useParams, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // pages
 import ProfileTemplate from './pages/ProfileTemplate';
 const PostTemplate = React.lazy(() => import("./pages/PostTemplate"));
 
 function App() {
-  const { id } = useParams();
 
   return (
     <div className='flex justify-center'>
       <div className='App w-full max-w-[500px]'>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <BrowserRouter basename="/rpn"> */}
         <Routes>
           <Route path="/" element={<ProfileTemplate />}/>
           <Route 
@@ -24,7 +23,7 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
     </div>
   );
