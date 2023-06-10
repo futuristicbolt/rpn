@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='flex justify-center'>
       <div className='App w-full max-w-[500px]'>
-      <BrowserRouter>
+      <BrowserRouter basename="/rpn">
         <Routes>
           <Route path="/" element={<ProfileTemplate />}/>
           <Route 
