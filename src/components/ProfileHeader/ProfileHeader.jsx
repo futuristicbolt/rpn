@@ -1,6 +1,6 @@
 import React from 'react'
 import { decodeFBString } from '../../utils';
-import posts from "../../data/content/rpn_posts.json";
+import posts from "../../data/content/inteldzn_posts.json";
 
 
 function ProfileHeader(props) {
