@@ -13,9 +13,9 @@ function App() {
       <div className='App w-full max-w-[500px]'>
       {/* <BrowserRouter basename="/rpn"> */}
         <Routes>
-          <Route path="/" element={<ProfileTemplate />}/>
+          <Route path="/rpn" element={<ProfileTemplate />}/>
           <Route 
-            path="/post" 
+            path="/rpn/post" 
             element={
               <React.Suspense fallback={<div className="relative mt-80">loading...</div>}>
                 <PostTemplate />
