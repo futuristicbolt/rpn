@@ -1,7 +1,7 @@
 import React from 'react'
 import Post from '../components/Post/Post'
-import posts from "../data/content/rpn_posts";
-import profile from "../data/profiles/reclaimedByNature.json";
+import posts from "../data/content/inteldzn_posts";
+import profile from "../data/profiles/intelligentdzn.json";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useState } from 'react';
 
