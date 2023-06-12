@@ -9,17 +9,7 @@
           "title": ""
         }
       },
-      "string_map_data": {
-        "Email": {
-          "href": "",
-          "value": "judepaclarke@gmail.com",
-          "timestamp": 0
-        },
-        "Phone Confirmed": {
-          "href": "",
-          "value": "False",
-          "timestamp": 0
-        },
+      
         "Username": {
           "href": "",
           "value": "intelligentdzn",
@@ -35,21 +25,7 @@
           "value": "\u00f0\u009f\u009a\u0097Follow your passion no matter what they tell you. \n\u00f0\u009f\u0092\u009c #carlover  \n\u00f0\u009f\u0093\u00b7 many pics otw! All mine unless otherwise stated",
           "timestamp": 0
         },
-        "Gender": {
-          "href": "",
-          "value": "unspecified",
-          "timestamp": 0
-        },
-        "Date of birth": {
-          "href": "",
-          "value": "1995-12-30",
-          "timestamp": 0
-        },
-        "Private Account": {
-          "href": "",
-          "value": "False",
-          "timestamp": 0
-        }
+        
       }
     }
   ]
