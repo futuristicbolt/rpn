@@ -1,0 +1,56 @@
+{
+  "profile_user": [
+    {
+      "title": "User Information",
+      "media_map_data": {
+        "Profile Photo": {
+          "uri": "https://res.cloudinary.com/dlnhp6qmm/image/upload/v1686595055/media/inteldzn/profile/40473989_683292228711252_1317370974827446272_n_17858915698284858_s2saqx.jpg",
+          "creation_timestamp": 1536269875,
+          "title": ""
+        }
+      },
+      "string_map_data": {
+        "Email": {
+          "href": "",
+          "value": "judepaclarke@gmail.com",
+          "timestamp": 0
+        },
+        "Phone Confirmed": {
+          "href": "",
+          "value": "False",
+          "timestamp": 0
+        },
+        "Username": {
+          "href": "",
+          "value": "intelligentdzn",
+          "timestamp": 0
+        },
+        "Name": {
+          "href": "",
+          "value": "Jude Clarke",
+          "timestamp": 0
+        },
+        "Bio": {
+          "href": "",
+          "value": "\u00f0\u009f\u009a\u0097Follow your passion no matter what they tell you. \n\u00f0\u009f\u0092\u009c #carlover  \n\u00f0\u009f\u0093\u00b7 many pics otw! All mine unless otherwise stated",
+          "timestamp": 0
+        },
+        "Gender": {
+          "href": "",
+          "value": "unspecified",
+          "timestamp": 0
+        },
+        "Date of birth": {
+          "href": "",
+          "value": "1995-12-30",
+          "timestamp": 0
+        },
+        "Private Account": {
+          "href": "",
+          "value": "False",
+          "timestamp": 0
+        }
+      }
+    }
+  ]
+}
