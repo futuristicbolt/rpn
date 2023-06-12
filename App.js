@@ -6,16 +6,18 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ProfileTemplate from './pages/ProfileTemplate';
 const PostTemplate = React.lazy(() => import("./pages/PostTemplate"));
 
+console.log(process.env.PUBLIC_URL)
+
 function App() {
 
   return (
     <div className='flex justify-center'>
       <div className='App w-full max-w-[500px]'>
-      {/* <BrowserRouter basename="/rpn"> */}
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/rpn" element={<ProfileTemplate />}/>
+          <Route path="/" element={<ProfileTemplate />}/>
           <Route 
-            path="/rpn/post" 
+            path="/post" 
             element={
               <React.Suspense fallback={<div className="relative mt-80">loading...</div>}>
                 <PostTemplate />
@@ -23,7 +25,7 @@ function App() {
             }
           />
         </Routes>
-      {/* </BrowserRouter> */}
+      </BrowserRouter>
     </div>
     </div>
   );
