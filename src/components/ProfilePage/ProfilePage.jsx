@@ -1,8 +1,8 @@
 import React from 'react'
 import ProfileHeader from '../ProfileHeader/ProfileHeader'
 import ImageGrid from '../ImageGrid/ImageGrid'
-import profile from "../../data/profiles/reclaimedByNature.json"
-import posts from "../../data/content/rpn_posts";
+import profile from "../../data/profiles/inteldzn.json"
+import posts from "../../data/content/inteldzn_posts";
 // import highlights from "../../data/content/rpn_highlights.json";
 import GalleryNav from '../GalleryNav/GalleryNav';
 
